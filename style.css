@@ -1,0 +1,48 @@
+/* Nav Logo */
+.navbar .navbar-brand{
+    color: white !important;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.nav-item:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #ffe227;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.jumbotron{
+    background-image: url(src/bg1.jpg);
+    background-size: cover;
+    height: 729px;
+    margin-top: -89px;
+    padding-top: 350px;
+    font-family: 'Poppins';
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    
+}
+
+.jumbotron .txt-rotate{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+
+    
+}
+.btn{
+    margin-top: 20px;
+}
+.HimatroNews{
+    font-family:  'Montserrat';
+}
